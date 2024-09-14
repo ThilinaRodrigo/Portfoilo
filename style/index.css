@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  padding-bottom: 100px;
+}
+
+body{
+  background-image: url(../images/v1016-c-08.jpg);
+
+}
+
+.navbar{
+  background-color: rgb(6, 6, 131);
+}
+
+.nav-icon{
+  width: 25px;
+  height: 25px;
+}
+
+.nav-item{
+  padding: 0 20px 0 20px;
+}
+.nav-bar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.image{
+ width: auto;
+ height: auto;
+}
+.discription{
+  font-size: 23px;
+}
+
+.image img{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.services-card{
+  width: 250px;
+}
+
+.services-card:hover{
+  transform: scale(1.025);
+}
+
+.social-icons{
+  height: 30px;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+.skils-card{
+  width:80%;
+  height: auto;
+  border-radius: 20px;
+  margin: 10px;
+}
+.skill{
+  border-radius: 10px;
+}
+.company-logo{
+  width: 75%;
+  border-radius: 10px;
+}
+.experience-details{
+  border-radius: 20px;
+}
+.ex-circle{
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+.experience-card{
+  width: 500px;
+}
+
+.project-images{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project-container{
+  height: auto;
+  border-radius: 20px;
+  width: 350px;
+  background-color: rgb(22, 20, 20);
+}
+
+.project-person{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right:-10px;
+}
+
+.contact input{
+  height: 50px;
+  border-radius: 10px;
+  background-color:    rgb(39, 37, 53);
+  margin-bottom: 20px;
+}
+.contact textarea{
+  border-radius: 10px;
+  background-color:   rgb(39, 37, 53);
+  margin-bottom: 20px;
+}
+
+.contact{
+  background-color: rgb(64, 61, 85);
+  width: 80%;
+  border-radius: 20px;
+  padding:auto;
+}
+
+.skill img{
+  width: 30px;
+}
+
+.education-card{
+  width: 500px;
+}
+
+.dynamic-text-symbol { 
+  font-weight: bold; 
+  animation: blink 1s step-end infinite; 
+}
+
+@keyframes blink {
+  from, to {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
+}
