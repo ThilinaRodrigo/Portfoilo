@@ -11,7 +11,14 @@ body{
 
 body{
   background-image: url(../images/v1016-c-08.jpg);
+}
 
+#preloader{
+  background: #000 url(../images/loader.gif) no-repeat center center ;
+  background-size: 5%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
 }
 
 .navbar{
@@ -171,6 +178,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 0px;
   }
   .main-info-list h1, .main-info-list h2 {
     font-size: 32px;
@@ -182,5 +190,8 @@ a{
   .image img{
     width: 350px;
     height: 350px;
+  }
+  #preloader{
+    background-size: 20%;
   }
 }
